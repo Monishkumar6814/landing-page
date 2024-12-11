@@ -1,0 +1,130 @@
+a{
+    color: black;
+    font-style:normal;
+}
+.one{
+    float:left;
+    display:inline ;
+}
+.TWO{
+    color: rgb(18, 141, 18);
+    
+}
+.three{
+    margin-left: 600px;
+    color: red;
+}
+.four{
+    margin-left: 400px;
+}
+.five{
+    margin-left: 550px;
+}
+.six{
+    font-weight: 400;
+    margin-left: 535px;
+}
+.eleven{
+    float: right;
+    text-align: center;
+    margin-right: 100px;
+
+}
+.seven{
+    list-style: none;
+    margin-left: 200px;
+    background-color: green;
+    display: inline;
+    padding: 15px;
+}
+li{
+    display: inline;
+    margin-left: 30px;  
+}
+.eight{
+    background-color: green;
+    display: inline;
+}
+.fifteen{
+    margin-left: 160px;
+}
+.nineteen{
+    float: right;
+    margin-right: 400px;
+    margin-bottom: 400px;
+}
+.sixteen{
+    margin-left: 100px;
+}
+
+.twenty{
+    width: 170px;
+    height: 60px;
+
+}
+.fourteen{
+    color: white;
+    background: url(./vcetputtur_cover.jfif);
+    background-size: 1400px 200px;
+
+    margin:150px;
+ 
+}
+.twentyone{
+
+    margin: 150px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .twentytwo{
+    margin-left: 600px;
+    margin: 150px;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  td, th {
+   
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+
+  }
+
+  .drop {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:rgb(246, 247, 246);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px;
+    z-index: 1;
+  }
+  
+  .drop:hover .dropdown-content {
+    display: block;
+  }
