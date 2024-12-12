@@ -121,7 +121,7 @@ tr:nth-child(even) {
 
 /* Media Query for Mobile Devices */
 @media screen and (max-width: 768px) {
-    /* General styles for smaller screens */
+    
     .one {
         display: block;
         margin: 0 auto;
@@ -210,9 +210,8 @@ tr:nth-child(even) {
     }
 }
 
-/* Media Query for Very Small Devices (Phones) */
 @media screen and (max-width: 480px) {
-    /* Reduce font sizes further and improve layout for very small screens */
+    
     .TWO {
         font-size: 1.2em;
     }
