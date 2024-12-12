@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VCET</title>
     <link rel="stylesheet" href="./style.css">
+        <script>
+        document.addEventListener("contextmenu", (e) => e.preventDefault());
+        document.addEventListener("keydown", (e) => {
+            if (e.ctrlKey && (e.key === 'u' || e.key === 'U')) e.preventDefault();
+        });
+    </script>
 
 </head>
 <body>
