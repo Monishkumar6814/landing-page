@@ -119,9 +119,9 @@ tr:nth-child(even) {
     display: block;
 }
 
-
+/* Media Query for Mobile Devices */
 @media screen and (max-width: 768px) {
-    
+    /* General styles for smaller screens */
     .one {
         display: block;
         margin: 0 auto;
@@ -181,8 +181,8 @@ tr:nth-child(even) {
     }
 
     .nineteen {
-        margin-right: 0;
-        margin-bottom: 20px;
+        margin-right: 0px;
+        margin-bottom: 50px;
     }
 
     .twenty {
@@ -202,11 +202,17 @@ tr:nth-child(even) {
     .dropdown-content {
         min-width: 100%;
     }
+
+    .sixteen {
+        margin-left: 0;
+        text-align: center;
+        float: none;
+    }
 }
 
 /* Media Query for Very Small Devices (Phones) */
 @media screen and (max-width: 480px) {
-
+    /* Reduce font sizes further and improve layout for very small screens */
     .TWO {
         font-size: 1.2em;
     }
@@ -228,5 +234,11 @@ tr:nth-child(even) {
     .nineteen input[type="text"] {
         width: 100%;
         padding: 8px;
+    }
+
+    .sixteen {
+        margin-left: 0;
+        text-align: center;
+        
     }
 }
